@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the .xlsx dataset
-file_path = r'C:\Users\UZEX5M4\Test_case_Data\Signal_data\Resample& interpolation.xlsx'  # Replace with the actual file path
+file_path = r'file_path'  # Replace with the actual file path
 data = pd.read_excel(file_path)
 
 # Extract time and velocity columns
@@ -46,3 +46,4 @@ axes[1].grid(alpha=0.3)
 plt.tight_layout()
 plt.show()
 
+      
